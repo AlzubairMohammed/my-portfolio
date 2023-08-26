@@ -1,0 +1,111 @@
+.section {
+  margin: 0px;
+  min-height: calc(100vh - 60px);
+  background-color: rgb(242, 236, 236);
+  letter-spacing: 1px;
+}
+
+.section img {
+  border-radius: 50%;
+}
+
+.section .col-lg-6 {
+}
+
+.hireBtn {
+  width: 150px;
+}
+
+.btn-primary {
+  --bs-btn-bg: #063372 !important;
+  --bs-btn-hover-color: #063372 !important;
+  --bs-btn-hover-bg: rgb(242, 236, 236) !important;
+}
+
+/* .btn-outline-secondary {
+    --bs-btn-hover-bg: #063372 !important;
+  } */
+
+@media screen and (min-width: 900px) {
+  .section img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-width: 401px) and (max-width: 899px) {
+  .section img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section img {
+    height: 300px;
+    width: 300px;
+  }
+  .section .btn {
+    width: 400px !important;
+  }
+
+  .btn-primary {
+    /* margin-left: 10px; */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section img {
+    height: 300px;
+    width: 300px;
+  }
+  .section .btn {
+    width: 380px !important;
+    margin-bottom: 10px;
+  }
+
+  .section h1 {
+    margin: 0px;
+  }
+
+  .btn-primary {
+    margin: 0px;
+    margin-left: 10px;
+  }
+}
+
+/* For Mobile Portrait View
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    
+  }
+   
+  /* For Mobile Landscape View */
+/* @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    
+  } */
+
+/* For Mobile Phones Portrait or Landscape View */
+/* @media screen and (max-device-width: 640px) {
+    
+  } */
+
+/* For iPhone 4 Portrait or Landscape View */
+/* @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+  } */
+
+/* For iPhone 5 Portrait or Landscape View */
+/* @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+  } */
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+/* @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    
+  } */
